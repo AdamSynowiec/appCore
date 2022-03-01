@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteRule ^core/$ - [F,L]
+RewriteRule ^assets/?$ - [F,L]
+RewriteRule ^includes/?$ - [F,L]
+RewriteRule ^templates/?$ - [F,L]
+
+
+# routing
+
+ErrorDocument 404 http://admin.fotiska.ct8.pl/404
+
+RewriteRule ^index$ home
+RewriteRule ^home$ index.php
+RewriteRule ^newsletter$ index.php?view=newsletter
+
+RewriteRule ^404$ index.php?view=404

@@ -1,0 +1,15 @@
+<?php
+
+    $settings = [
+        "base_url" => "http://mydomain.com/",
+        "charset" => "UTF-8",
+        "lang" => "en",
+        "domains" => "mydomain.com",
+        "title" => "Lorem ipsum",
+
+        "css_version" => "1.0.0",
+
+        [...]
+    ];
+
+?>

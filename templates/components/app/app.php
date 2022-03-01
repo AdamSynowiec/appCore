@@ -1,0 +1,1 @@
+<span>Pierwszy komponent #app</span>
